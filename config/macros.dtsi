@@ -1,3 +1,15 @@
+macro_delete_line: macro_delete_line{
+compatible = "zmk,behavior-macro";
+label = "macro_delete_line";
+#binding-cells = <0>;
+bindings = <&kp LC(L)>;
+};
+macro_snoop: macro_snoop{
+compatible = "zmk,behavior-macro";
+label = "macro_snoop";
+#binding-cells = <0>;
+bindings = <&kp LC(LSHFT)>;
+};
 macro_alt_shift_tab: macro_alt_shift_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_alt_shift_tab";
